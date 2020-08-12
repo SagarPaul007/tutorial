@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    pading: 0;
+    width: 100%;
+}
+.nav-bar{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu{
+
+}
+.menu ul{
+    padding: 0;
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: rotateX(-50%);
+}
+.menu ul li{
+    padding: 0 10px;
+    list-style: none;
+}
+.sign-btn ul{
+    display: inline-flex;
+}
+.sign-btn ul li{
+    padding: 0 10px;
+    list-style: none;
+}
